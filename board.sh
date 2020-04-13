@@ -14,6 +14,7 @@ if [ $chum == 1 ]
  echo "---------------------------" >> Threads.log
  echo "Topic: $to" >> Threads.txt
  echo "$me" >> Threads.txt
+ echo "poof it is done"
 fi
 
 if [ $chum == 2 ]

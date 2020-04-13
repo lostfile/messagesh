@@ -11,7 +11,7 @@ if [ $chum == 1 ]
  read to
  echo "message hit enter for new line press ~ when done"
  read -r -d '~' me
- echo "---------------------------" >> Threads.log
+ echo "---------------------------" >> Threads.txt
  echo "Time: $(date)" >> Threads.txt
  echo "Topic: $to" >> Threads.txt
  echo "$me" >> Threads.txt

@@ -15,7 +15,6 @@ if [ $chum == 1 ]
  echo "Time: $(date)" >> Threads.txt
  echo "Topic: $to" >> Threads.txt
  echo "$me" >> Threads.txt
- echo "poof it is done"
 fi
 
 if [ $chum == 2 ]

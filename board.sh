@@ -1,5 +1,5 @@
 #!/bin/bash
-echo message board script v1.0
+cat motd.txt
 echo 1. post
 echo 2. view
 echo 3. download thread.txt you need teraterm

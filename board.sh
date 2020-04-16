@@ -1,8 +1,6 @@
 #!/bin/bash
 cat motd.txt
-entries=( "post"
-           "view"
-           "download")
+entries=( "post" "view" "download")
 echo -n "numb:"
 read chum
 

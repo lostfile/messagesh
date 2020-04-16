@@ -1,8 +1,10 @@
 #!/bin/bash
 cat motd.txt
 echo TextBoard V1.1
-boo = 0
+while [boo = 0]
 do
-OPTIONS=(1 "post"
-         2 "view"
-         3 "download")
+read opi
+ case "$opi" in
+ 1)
+ 
+ 

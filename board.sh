@@ -9,6 +9,8 @@ read opi
  echo -n "Topic:"
  read topic
  echo $topic >> thread.txt
- 
+ echo msg
+ read -d 'END' mess
+ echo mess >> thread.txt
 
  

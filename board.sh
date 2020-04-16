@@ -31,6 +31,7 @@ x = 1
 *)
 echo "sorry what"
 x = 0
+;;
 esac
 
 done

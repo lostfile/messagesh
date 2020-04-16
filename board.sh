@@ -12,6 +12,9 @@ echo -n "Topic"
 read topc
 echo "--------------------------------" >> threads.txt
 echo $topc >> threads.txt
-echo body
-read 
-
+echo body hit ~ to stop
+read -d '~' bock
+echo $bock >> threads.txt
+;;
+2)
+cat threads.txt

@@ -6,7 +6,9 @@ do
 read opi
  case "$opi" in
  1)
- echo "Topic:"
+ echo -n "Topic:"
  read topic
- echo 
+ echo $topic >> thread.txt
+ 
+
  

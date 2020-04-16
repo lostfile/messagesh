@@ -12,7 +12,7 @@ echo -n "Topic:"
 read topc
 echo "--------------------------------" >> threads.txt
 echo "Time: $(date)" >> threads.txt
-echo "Topic:"$topc >> threads.txt
+echo "Topic: $topc" >> threads.txt
 echo "body hit ~ to stop"
 read -d '~' bock
 echo $bock >> threads.txt

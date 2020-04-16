@@ -21,7 +21,7 @@ echo $bock >> threads.txt
 cat threads.txt
 ;;
 3)
-sx threads
+sx threads.txt
 ;;
 *)
 echo "sorry what"

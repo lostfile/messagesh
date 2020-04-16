@@ -11,7 +11,7 @@ case $beans in
 echo -n "Topic:"
 read topc
 echo "--------------------------------" >> threads.txt
-echo "Topic:"$topc >> threads.txt
+echo "Topic:"$topc >> threads.txtecho "Time: $(date)" >>
 echo "body hit ~ to stop"
 read -d '~' bock
 echo $bock >> threads.txt

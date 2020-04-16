@@ -1,8 +1,5 @@
 #!/bin/bash
 cat motd.txt
-x = 0
-while [ x = 0 ]
-do
 echo Menu
 echo "1. post"
 echo "2. view" 
@@ -14,24 +11,19 @@ case $beans in
 echo -n "Topic:"
 read topc
 echo "--------------------------------" >> threads.txt
-echo $topc >> threads.txt
+echo "Topic:"$topc >> threads.txt
 echo "body hit ~ to stop"
 read -d '~' bock
 echo $bock >> threads.txt
-x = 1
 ;;
 2)
 cat threads.txt
-x = 1
 ;;
 3)
 sx threads
-x = 1
 ;;
 *)
 echo "sorry what"
-x = 0
 ;;
 esac
 
-done

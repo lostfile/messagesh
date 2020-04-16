@@ -14,7 +14,7 @@ echo "--------------------------------" >> threads.txt
 echo "Time: $(date)" >> threads.txt
 echo "Topic: $topc" >> threads.txt
 echo "body hit ~ to stop"
-read -d '~' bock
+read -r -d '~' bock
 echo $bock >> threads.txt
 ;;
 2)

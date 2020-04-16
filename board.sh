@@ -1,8 +1,8 @@
 #!/bin/bash
 cat motd.txt
-echo 1. post
-echo 2. view
-echo 3. download thread.txt you need teraterm
+entries=( "post"
+           "view"
+           "download")
 echo -n "numb:"
 read chum
 
@@ -21,6 +21,15 @@ fi
 if [ $chum == 2 ]
  then
  cat Threads.txt
+ echo -n "go back to menu"
+ read beert
+fi 
+
+if [ $beert == "n" ]
+then
+EOF
+else
+
 fi
 
 if [ $chum == 3 ]

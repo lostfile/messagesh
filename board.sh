@@ -12,5 +12,6 @@ read opi
  echo msg
  read -d 'END' mess
  echo mess >> thread.txt
-
- 
+ boo = 1
+;;
+2)

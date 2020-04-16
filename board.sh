@@ -1,8 +1,9 @@
 #!/bin/bash
 cat motd.txt
 echo TextBoard V1.1
-while [boo = 0]
 do
+while [boo = 0]
+
     read opi
     case "$opi" in
     1)
@@ -15,3 +16,5 @@ do
     boo = 1
     ;;
     2)
+    
+    done

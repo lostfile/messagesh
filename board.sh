@@ -6,5 +6,7 @@ do
 read opi
  case "$opi" in
  1)
- 
+ echo "Topic:"
+ read topic
+ echo 
  

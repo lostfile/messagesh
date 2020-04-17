@@ -1,8 +1,8 @@
 #!/bin/bash
-X = 1
-while true
-do
+
+
 cat motd.txt
+do
 echo Menu
 echo "1. post"
 echo "2. view" 
@@ -29,6 +29,7 @@ sx threads.txt
 ;;
 4)
 echo "good by click"
+echo "-------------------------"
 break
 ;;
 esac

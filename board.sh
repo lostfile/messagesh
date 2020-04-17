@@ -9,7 +9,6 @@ echo "2. view"
 echo "3. download"
 echo "4. quit"
 echo -n "> "
-cls
 read beans
 case $beans in
 1)

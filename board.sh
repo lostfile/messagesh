@@ -32,5 +32,8 @@ echo "good by click"
 echo "-------------------------"
 break
 ;;
+*)
+echo "sorry but thats not a choice"
+;;
 esac
 done

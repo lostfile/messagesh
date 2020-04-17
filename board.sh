@@ -1,12 +1,13 @@
 #!/bin/bash
 X = 1
-while [ x = 1 ]
+while [ $X = 1 ]
 do
 cat motd.txt
 echo Menu
 echo "1. post"
 echo "2. view" 
 echo "3. download"
+echo "4. quit"
 echo -n "> "
 read beans
 case $beans in
@@ -26,8 +27,9 @@ cat threads.txt
 3)
 sx threads.txt
 ;;
-*)
-echo "sorry what"
+4)
+echo "good by click"
+end
 ;;
 esac
-
+done

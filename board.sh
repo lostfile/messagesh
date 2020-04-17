@@ -1,6 +1,6 @@
 #!/bin/bash
 X = 1
-while [ $X = 1 ]
+while true
 do
 cat motd.txt
 echo Menu
@@ -29,7 +29,7 @@ sx threads.txt
 ;;
 4)
 echo "good by click"
-end
+break
 ;;
 esac
 done

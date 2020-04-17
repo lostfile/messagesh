@@ -1,10 +1,13 @@
 #!/bin/bash
+X = 1
+while [ x = 1 ]
+do
 cat motd.txt
 echo Menu
 echo "1. post"
 echo "2. view" 
 echo "3. download"
-echo -n ">"
+echo -n "> "
 read beans
 case $beans in
 1)

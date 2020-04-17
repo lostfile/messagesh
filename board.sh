@@ -2,7 +2,7 @@
 
 
 cat motd.txt
-do
+while true; do
 echo Menu
 echo "1. post"
 echo "2. view" 

@@ -30,8 +30,7 @@ cat threads.txt
 sx threads.txt
 ;;
 4)
-echo "good beye click"
-echo "-------------------------"
+cat beye.txt
 break
 ;;
 *)
